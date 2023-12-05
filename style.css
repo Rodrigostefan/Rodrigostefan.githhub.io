@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #5598C3;
+}
+
+.cabeçario {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 700px;
+    padding-left: 700px;
+    border-bottom: solid 2px skyblue;
+}
+
+.titulocab {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 25px;
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 20px;
+    color: white;
+    align-items: center;
+    padding-left: 25%;
+    padding-right: 25%;
+    text-indent: 40px;
+}
+
+.fotos {
+    border-radius: 10%;
+    height: 350px;
+    width: 550px;
+    ;
+}
+
+.fotos2 {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    gap: 20px;
+}
+
+.sec1 {
+    display: flex;
+    padding-top: 50px;
+
+    text-align: center;
+    justify-content: space-around;
+}
+
+.consulta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.titulo {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+}
+
+.sec2 {
+    display: flex;
+    padding-top: 50px;
+    margin-left: 100px;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.filhotes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -30px;
+}
+
+@media screen and (max-width:1075px) {
+    .cabeçario {
+        padding-left: 0;
+        padding-right: 0;
+
+    }
+
+    .titulo {
+        font-size: 20px;
+        padding-left:20px ;
+        padding-right: 20px;
+    }
+
+    .texto {
+        padding-left: 5%;
+        padding-right: 5%;
+        font-size: 12px;
+    }
+
+    .fotos {
+        width: 200px;
+        height: 200px;
+    }
+
+    .fotos2 {
+        gap: 10px;
+    }
+
+    .cabeçario{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .titulocab{
+        font-size: 20px;
+    }
+
+    .logo{
+        width: 180px;
+        height: 140px;
+    }
+}
